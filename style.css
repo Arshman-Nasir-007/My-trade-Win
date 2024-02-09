@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+	padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+
+/* banner */
+.banner {
+    background: url(image/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_main {
+    padding: 232px 0;
+}
+.banner-details h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    max-width: 550px;
+    padding-bottom: 24px;
+}
+.banner-details h1 span {
+    color: #9057c2;
+}
+.banner_btns {
+    display: flex;
+    gap: 18px;
+}
+.banner-btn a {
+    display: inline-block;
+    padding: 8px 14px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 3px solid #9057c2;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+.banner-btn-1 a {
+    background: #9057c2;
+}
+.banner-btn-2 a {
+    padding: 8px 24px;
+    background: transparent;
+}
+.banner-btn-1 a:hover {
+    background: transparent;
+}
+.banner-btn-2 a:hover {
+    background: #9057c2;
+}
+
+/* contest-card */
+.contest-card {
+    padding: 64px 0;
+}
+.contest-card_wrapper {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.contest-card_innerCard {
+    flex: 0 0 31%;
+    max-width: 31%;
+    background: #f2f2f2;
+    text-align: center;
+    padding: 42px 0;
+}
+.contest-card_innerCard img {
+    max-width: 90px;
+    width: 100%;
+    padding-bottom: 32px;
+    color: #402861;
+}
+.contest-card_innerCard h3 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.active-card {
+    background: #d0bce1;
+    box-shadow: 6px 6px 15px #aaaaaa;
+    padding: 48px 0;
+}
+.active-card img {
+    max-width: 100px;
+}
+
+/* Currencies */
+.currencies {
+    padding-bottom: 64px;
+}
+.currencies-head h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 42px;
+}
+.currencies-wrapper {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+.currencies-coins {
+    flex: 0 0 125px;
+    max-width: 125px;
+    border-radius: 125px;
+    padding: 16px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 1px 1px 6px 4px #ccc;
+}
+
+/* trade_anytime */
+
+.trade_anytime {
+    padding-bottom: 64px;
+}
+.trade_anytime-main {
+    background: #f2f2f2;
+    padding: 64px 0;
+}
+.trade_anytime-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trade_anytime-details, .trade_anytime-img {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.trade_anytime-details {
+    padding-left: 54px;
+}
+.trade_anytime-head h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    padding-bottom: 42px;
+    color: #2f2f2f;
+}
+.trade_anytime-para p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 42px;
+}
+.trade_anytime-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 450px;
+}
+.trade_anytime-logo-icon:hover {
+    background: transparent;
+}
+.trade_anytime-logo-icon:hover {
+    background: #c0b3d2;
+}
+.trade_anytime-logo-icon {
+    padding: 20px 42px;
+}
+.trade_anytime-logo-icon img {
+    padding-bottom: 4px;
+}
+.trade_anytime-logo-icon h6 {
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.trade_anytime-img img {
+    width: 100%;
+}
+
+/* why_choose */
+.why_choose {
+    padding-bottom: 64px;
+}
+.why_choose-heading h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #2f2f2f;
+    padding-bottom: 42px;
+}
+.why_choose-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.direction_column {
+    padding: 16px 0;
+    flex-direction: row-reverse;
+}
+.why_choose-img {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+.why_choose-img img {
+    width: 100%;
+}
+.why_choose-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.why_choose-head h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #2f2f2f;
+    padding-bottom: 42px;
+}
+.why_choose-para p {
+    color: #707070;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* easy_steps */
+.easy_steps {
+    padding-bottom: 64px;
+}
+.easy_steps-heading h2 {
+    color: #2f2f2f;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+}
+.easy_steps-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    margin-top: 36px;
+}
+.easy_steps-card_list {
+    flex: 0 0 28%;
+    max-width: 28%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 24px 56px 15px 24px;
+}
+.easy_steps-card-info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.easy_steps-card-info h3 {
+    color: #2f2f2f;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+}
+.easy_steps-card-info img {
+    width: 55px;
+}
+.easy_steps-card-para p {
+    /* width: 301px; */
+    min-height: 110px;
+    font-size: 18px;
+    color: #707070;
+    font-weight: 400;
+    padding-top: 12px;
+}
+/* footer */
+.footer {
+    padding: 64px 0;
+    background: #402861;
+}
+.footer-logo {
+    padding-bottom: 48px;
+}
+.footer-logo a img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-cols {
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+.footer-cols-icon {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.footer-icons a img {
+    width: auto;
+    height: 48px;
+}
+.footer-cols ul li {
+    padding-bottom: 18px;
+}
+.footer-cols ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+.footer-cols h4 {
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+.footer-cols p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+/* Buttons */  /* Sign up now \\ login */
+.main-content {
+    padding-top: 42px;
+    justify-content: center;
+    background: #fff;
+}
+.main-content .banner-btn-2 a, .main-content .banner-btn-1 a:hover {
+    color: #000;
+} 
+.main-content .banner-btn-2 a:hover {
+    color: #fff;
+} 
+
+/* footer */
+
+
+
+
+
+@media (max-width: 1024px ) {
+    .banner_main {
+        padding: 100px 0;
+    }
+    .currencies-wrapper {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 992px ) {
+    .why_choose-main, .direction_column {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .direction_column {
+        padding: 42px 0;
+    }
+    .why_choose-img {
+        max-width: 100%;
+    }
+    .why_choose-content {
+        text-align: center;
+        max-width: 100%;
+    }
+    .why_choose-head h2 {
+        padding: 30px 0;
+    }
+    .easy_steps-wrapper {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .easy_steps-card_list {
+        flex: 0 0 38%;
+        max-width: 38%;
+    }
+    .footer-menu {
+        gap: 24px;
+    }
+    .footer-cols-icon {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .footer-cols {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+}
+@media (max-width: 768px ) {
+    .trade_anytime-wrapper {
+        flex-direction: column-reverse;
+    }
+    .trade_anytime-details {
+        padding: 0 24px;
+    }
+    .trade_anytime-details, .trade_anytime-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .banner-details h1 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+    .contest-card_wrapper {
+        flex-wrap: wrap;
+    }
+    .contest-card_innerCard {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contest-card_innerCard {
+        position: sticky;
+        top: 32px;
+    }
+    .currencies-wrapper {
+        display: block;
+    }
+    .currencies-head h2 {
+        padding-bottom: 16px;
+    }
+    .currencies-head {
+        position: sticky;
+        top: 32px;
+    }
+    .currencies-coins {
+        margin: 24px auto;
+    }
+    .currencies-coins {
+        position: sticky;
+        top: 96px;
+    }
+    .trade_anytime-main {
+        padding: 42px 0;
+    }
+    .trade_anytime-details {
+        padding: 24px;
+    }
+    .trade_anytime-logo-icon {
+        padding: 12px 24px;
+    }
+    .trade_anytime-logo-icon img {
+        width: 34px;
+    }
+    .trade_anytime-logo-icon h6 {
+        font-size: 10px;
+    }
+    .easy_steps-heading {
+        position: sticky;
+        top: 32px;
+        z-index: -1;
+    }
+    .easy_steps-card_list {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .easy_steps-card_list {
+        position: sticky;
+        top: 92px;
+    }
+    .footer-cols {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .banner-details h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .currencies-head h2, .trade_anytime-head h2, .why_choose-heading h2, .why_choose-head h2, .easy_steps-heading h2 {
+        font-size: 24px;
+        line-height: 32px;
+    } 
+    .trade_anytime-logo-icon {
+        padding: 8px 18px;
+    }
+    .easy_steps-card-info h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .footer-logo a img {
+        max-width: 200px;
+    }
+    .footer-icons a img {
+        width: auto;
+        height: 30px;
+    }
+    .footer-cols ul li a {
+        font-size: 16px;
+    }
+    .footer-cols p {
+        font-size: 14px;
+    }
+}
+
